@@ -35,5 +35,5 @@ if (
     navigator.userAgent
   )
 ) {
-  window.location.href = "/portfolio.pdf";
+  window.location.href = "./portfolio.pdf";
 }
