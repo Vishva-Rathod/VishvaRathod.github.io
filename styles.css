@@ -7,7 +7,6 @@ body {
     padding: 0;
     color: #333;
     background: #f4f4f4;
-    overflow: hidden;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -55,7 +54,7 @@ header {
 #pdf-viewer {
     display: flex;
     width: 100%;
-    overflow: auto;
+    overflow: auto !important;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -65,7 +64,7 @@ header {
     display: block;
     width: 100%;
     border: none;
-    overflow: hidden;
+    overflow: scroll;
     text-align: center;
 }
 
